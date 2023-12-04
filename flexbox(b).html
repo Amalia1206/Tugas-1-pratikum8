@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible"content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox5</title>
+    <link rel="stylesheet" href="css/style5.css">
+</head>
+<style>
+    body{
+    margin: 0%;
+    padding: 0%;
+}
+img {
+    height: 25vh;
+}
+body {
+    background-color: pink;
+    text-align: center;
+}
+header, footer {
+    background-color: aqua;
+    height: 15vh;
+    line-height: 15vh;
+    margin: 20px;
+}
+main {
+    height: 70vh;
+    margin: 0 20px;
+    display: flex;
+}
+aside {
+    background-color: royalblue;
+    flex: 1;
+    margin-right: 20px;
+}
+article {
+    background-color: rgb(114, 26, 26);
+    flex: 3;
+    text-align: center;
+}
+article .text {
+    height: 37vh;
+}
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+</style>
+<bod>
+    <header>header</header>
+    <main>
+        <aside>aside</aside>
+        <article><div class="text">article</div>
+            <div class="container">
+                <img src="https://asset.kompas.com/crops/9cJnqM34XZjPTeQ8W0fYusvP7Ho=/0x253:634x676/750x500/data/photo/2021/08/30/612c9b0c6b3ee.jpg"alt="gambar1">
+                <img src="https://berita.99.co/wp-content/uploads/2022/07/jenis-merpati.jpg"alt="gambar2">
+                <img src="https://i.pinimg.com/474x/c7/88/ed/c788ed35844834ca055750341ffe2174.jpg"alt="gambar3">
+            </div>
+        </article>
+    </main>
+    <footer>footer</footer>
+</bod>
+</html>
